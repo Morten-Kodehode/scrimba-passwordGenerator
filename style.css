@@ -1,1 +1,80 @@
+:root {
+  --light: #fffffe;
+  --green: #4ce184;
+  --bgc: #1e2938;
+}
+
 /* Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: bisque;
+  color: var(--light);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--bgc);
+  border: 3px solid silver;
+  border-radius: 15px;
+  padding: 50px;
+}
+
+h1 {
+  color: var(--green);
+  font-size: 3rem;
+  padding-bottom: 15px;
+  line-height: 0.9;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+span {
+  color: white;
+}
+
+.generatePasswordBtn {
+  margin: 50px auto 25px 0;
+  padding: 10px;
+  color: var(--light);
+  background-color: var(--green);
+  border-radius: 10px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+hr {
+  height: 2px;
+  background-color: #273445;
+  border: none;
+}
+
+.passwordDiv {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.passwordBox {
+  border-radius: 5px;
+  font-size: 1.3rem;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: #283549;
+  color: var(--green);
+}
