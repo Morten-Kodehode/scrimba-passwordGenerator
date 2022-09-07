@@ -11,13 +11,17 @@
     <div class="container">
       <h1 class="title"><span>Generate a </span><br />random password</h1>
       <p>Never use an insecure password again.</p>
-      <button class="generatePasswordBtn" id="generatePassword">
+      <button
+        class="generatePasswordBtn"
+        id="generatePassword"
+        onclick="generatePassword()"
+      >
         Generator passwords
       </button>
       <hr />
       <div class="passwordDiv">
-        <div class="passwordBox" id="passwordOutput1">89das798d</div>
-        <div class="passwordBox" id="passwordOutput2">98da7d98a7</div>
+        <div class="passwordBox" id="passwordOutput1">********</div>
+        <div class="passwordBox" id="passwordOutput2">********</div>
       </div>
     </div>
     <script src="script.js"></script>
